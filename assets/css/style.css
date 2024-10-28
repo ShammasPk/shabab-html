@@ -1591,6 +1591,7 @@ img {
     list-style: none;
 }
 
+.site-header #navbar>ul li a.active,
 .site-header #navbar>ul li a:hover,
 .site-header #navbar>ul li a:focus {
     text-decoration: none;
@@ -2205,6 +2206,7 @@ img {
 
 .header-style-1 .navbar-brand,
 .header-style-2 .navbar-brand {
+    padding: 2px;
     margin-top: 12px;
 }
 
@@ -2266,7 +2268,7 @@ img {
     .header-style-2 #navbar>ul>li>a {
         font-size: 17px;
         font-size: 1.13333rem;
-        padding: 40px 20px;
+        padding: 25px 20px;
     }
 }
 
@@ -2334,7 +2336,7 @@ img {
 
 .header-style-1 .search-contact .contact-btn,
 .header-style-2 .search-contact .contact-btn {
-    top: 1px;
+    top: -11px;
 }
 
 .header-style-1 .search-contact .fi,
@@ -3132,6 +3134,8 @@ img {
 }
 
 .site-footer .lower-footer .copyright {
+    width: 100%;
+        text-align: center;
     display: inline-block;
     float: left;
     font-size: 14px;
